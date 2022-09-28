@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 150vh;
+    background-color: ghostwhite;
+}
+
+.logo {
+    width: 100%;
+    height: 15vh;
+    background-color: #ffffff;
+    display: flex;
+    padding-top: 25px;
+    padding-left: 70px;
+}
+
+.heading {
+    color: deepskyblue;
+}
+
+.master {
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.master1 {
+    margin-top: 30px;
+}
+
+.div1 {
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid gainsboro;
+    margin-bottom: 30px;
+    margin-right: 110px;
+    margin-left: 0px;
+}
+
+.topic {
+    border-bottom: 2px solid rgb(230, 228, 228);
+    padding-bottom: 20px;
+}
+
+input {
+    width: 20px;
+    height: 20px;
+
+}
+
+.label {
+    text-decoration: line-through;
+    color: lightgray;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.label1 {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.add {
+    color: deepskyblue;
+    float: right;
+    height: 50px;
+    margin-right: 200px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+
+}
+
+#add {
+    color: deepskyblue;
+    height: 50px;
+    text-align: right;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#back {
+    color: black;
+}
+
+span {
+    color: black;
+    text-decoration: double;
+    /* text-align: center; */
+}
+
+.b {
+    margin-right: 80px;
+}
+
+.div1:hover {
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+
+a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        width: 100%;
+        height: 120vh;
+        background-color: ghostwhite;
+    }
+
+    .logo {
+        height: auto;
+        display: flex;
+        padding: 20px;
+        padding-left: 20px;
+    }
+
+    .master {
+        display: block;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .taskadd {
+        display: none;
+    }
+
+    .div1 {
+        height: auto;
+        align-items: center;
+        margin-left: -60px;
+        margin-bottom: 20px;
+    }
+
+    #div1 {
+        margin-top: -20px;
+    }
+
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        width: 100%;
+        height: 120vh;
+        background-color: ghostwhite;
+    }
+
+    .logo {
+        height: auto;
+        display: flex;
+        padding: 20px;
+        padding-left: 20px;
+    }
+
+    .master {
+        display: block;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .div1 {
+        height: auto;
+        align-items: center;
+        margin: 20px;
+    }
+
+    #div1 {
+        margin-top: -20px;
+    }
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        width: 100%;
+        height: 120vh;
+        background-color: ghostwhite;
+    }
+    .logo {
+        height: auto;
+        display: flex;
+        padding: 20px;
+        padding-left: 50px;
+    }
+
+    .master {
+        display: block;
+    }
+
+    .add {
+        align-items: center;
+    }
+
+    .div1 {
+        height: auto;
+        align-items: center;
+        margin: 20px;
+    }
+
+    #div1 {
+        margin-top: -20px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        width: 100%;
+        height: 132vh;
+        background-color: ghostwhite;
+    }
+
+    .logo {
+        height: auto;
+        display: flex;
+        padding: 20px;
+        padding-left: 50px;
+    }
+
+    .master {
+        display: block;
+    }
+
+    .add {
+        align-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div1 {
+        height: auto;
+        align-items: center;
+        margin: 50px;
+        margin-bottom: 20px;
+
+    }
+
+    #div1 {
+        margin-top: -20px;
+    }
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 800px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        width: 100%;
+        height: 120vh;
+        background-color: ghostwhite;
+    }
+    .logo {
+        height: auto;
+        display: flex;
+        padding: 20px;
+        padding-left: 50px;
+    }
+
+    .master {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .add {
+        align-items: center;
+    }
+
+    .div1 {
+        align-items: center;
+        margin: 10px;
+        margin-bottom: 20px;
+        margin-left: -40px;
+        margin-right: 60px;
+
+    }
+
+    #div1 {
+        margin-top: 10px;
+
+    }
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 900px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        width: 100%;
+        height: 120vh;
+        background-color: ghostwhite;
+    }
+    .logo {
+        height: auto;
+        display: flex;
+        padding: 20px;
+        padding-left: 50px;
+    }
+
+    .master {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .add {
+        align-items: center;
+    }
+
+    .div1 {
+        align-items: center;
+        margin: 10px;
+        margin-bottom: 20px;
+        margin-left: -40px;
+        margin-right: 90px;
+        align-items: center;
+    }
+
+    #div1 {
+        margin-top: 10px;
+
+    }
+
+}
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        width: 100%;
+        height: 120vh;
+        background-color: ghostwhite;
+    }
+    .logo {
+        height: auto;
+        display: flex;
+        padding: 20px;
+        padding-left: 50px;
+    }
+
+    .master {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .add {
+        align-items: center;
+    }
+
+    .div1 {
+        align-items: center;
+        margin: 10px;
+        margin-bottom: 20px;
+        margin-left: -40px;
+        margin-right: 90px;
+        align-items: center;
+    }
+
+    #div1 {
+        margin-top: 10px;
+
+    }
+
+}
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo {
+        height: auto;
+        display: flex;
+        padding: 20px;
+        padding-left: 50px;
+    }
+
+    .master {
+        display: flex;
+        justify-content: start;
+    }
+
+    .add {
+        align-items: center;
+    }
+
+    .div1 {
+        align-items: center;
+        margin: 10px;
+        margin-bottom: 20px;
+        margin-left: -40px;
+        margin-right: 90px;
+        align-items: center;
+    }
+
+}
+@media only screen and (min-width: 1100px) and (max-width: 1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo {
+        height: auto;
+        display: flex;
+        padding: 20px;
+        padding-left: 50px;
+    }
+
+    .master {
+        display: flex;
+        justify-content: center;
+    }
+    .div1 {
+        align-items: center;
+        margin: 10px;
+        margin-bottom: 20px;
+        margin-left: -40px;
+        margin-right: 90px;
+        align-items: center;
+    }
+
+}
+@media only screen and (min-width: 1200px) and (max-width: 1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo {
+        height: auto;
+        display: flex;
+        padding: 20px;
+        padding-left: 50px;
+    }
+
+    .master {
+        display: flex;
+        justify-content: center;
+    }
+    .div1 {
+        align-items: center;
+        margin: 10px;
+        margin-bottom: 20px;
+        margin-left: -40px;
+        margin-right: 90px;
+        align-items: center;
+    }
+    @media only screen and (min-width: 375px)
+    {
+        header{
+            height: 667px;
+            background-color: ghostwhite;
+        }
+        #div5{
+            margin-bottom: 20px;
+        }
+    }
+}

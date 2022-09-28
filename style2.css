@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 150vh;
+    background-color: ghostwhite;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    padding: 20px;
+}
+
+.heading {
+    color: deepskyblue;
+}
+
+.master {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div1 {
+    width: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid gainsboro;
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.topic {
+    border-bottom: 2px solid rgb(230, 228, 228);
+    padding-bottom: 20px;
+}
+
+input {
+    width: 20px;
+    height: 20px;
+
+}
+
+.label {
+    text-decoration: line-through;
+    color: lightgray;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.label1 {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#back {
+    color: black;
+}
+
+span {
+    color: black;
+    text-decoration: double;
+    /* text-align: center; */
+}
+
+.b {
+    margin-right: 80px;
+}
+
+.div1:hover {
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+
+a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+#div1 {
+    width: 300px;
+    height: auto;
+
+}
+/*  */
